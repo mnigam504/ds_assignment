@@ -14,7 +14,7 @@ struct node* create(int data)
   key->right = NULL;
   return(key);
 }
-void inorder(struct node *root)
+void postorder(struct node *root)
 {
     if(root!=NULL)
     {
@@ -31,7 +31,7 @@ int main()
   root->left->left  = create(40);
   root->right->left=create(50);
   root->right->right=create(60);
-  inorder(root);
+  postorder(root);
   getchar();
   return 0;
 }
