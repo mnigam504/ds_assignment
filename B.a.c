@@ -2,7 +2,7 @@
  Pass the values of linked list in array
  */
 #include <stdio.h>
-#include <stdlib.h>
+#include <iostream.h>
 struct Node  // creating node
 {
  struct Node *prev;// linking to previous data
