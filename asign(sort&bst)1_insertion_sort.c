@@ -1,8 +1,8 @@
 #include<stdio.h>
-void isort(int a[],int n)
+void isort(int a[],int size)
 {
     int i;
-    for(i=0;i<n;i++)
+    for(i=0;i<size;i++)
     {
         int key=a[i];
         int j=i-1;
